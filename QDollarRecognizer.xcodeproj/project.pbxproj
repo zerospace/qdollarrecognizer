@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0ADE47029E7FFB200DE489F /* AnimationCompletionObserverModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADE46F29E7FFB200DE489F /* AnimationCompletionObserverModifier.swift */; };
+		C0ADE47229E800FE00DE489F /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADE47129E800FE00DE489F /* ViewExtension.swift */; };
+		C0ADE47429E80C8A00DE489F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADE47329E80C8A00DE489F /* ListView.swift */; };
+		C0ADE47629E812A400DE489F /* AddGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADE47529E812A400DE489F /* AddGestureView.swift */; };
+		C0ADE47A29E968BC00DE489F /* DrawShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADE47929E968BC00DE489F /* DrawShape.swift */; };
+		C0ADE47F29EFE93E00DE489F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0ADE47D29EFE93E00DE489F /* Model.xcdatamodeld */; };
+		C0ADE4A029EFFF6000DE489F /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADE49F29EFFF6000DE489F /* PersistenceController.swift */; };
+		EB0C75712954743200C1F761 /* QDollarRecognizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C75702954743200C1F761 /* QDollarRecognizerApp.swift */; };
+		EB0C75732954743200C1F761 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C75722954743200C1F761 /* ContentView.swift */; };
+		EB0C75752954743500C1F761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0C75742954743500C1F761 /* Assets.xcassets */; };
+		EB0C75782954743500C1F761 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0C75772954743500C1F761 /* Preview Assets.xcassets */; };
+		EBC1AB7A2976F486000A6873 /* templates.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBC1AB792976F486000A6873 /* templates.plist */; };
+		EBE98C54295B537100DAA84A /* QDollarRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE98C53295B537100DAA84A /* QDollarRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C06E38B429F9297200B1F5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C0ADE46F29E7FFB200DE489F /* AnimationCompletionObserverModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCompletionObserverModifier.swift; sourceTree = "<group>"; };
+		C0ADE47129E800FE00DE489F /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		C0ADE47329E80C8A00DE489F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		C0ADE47529E812A400DE489F /* AddGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGestureView.swift; sourceTree = "<group>"; };
+		C0ADE47929E968BC00DE489F /* DrawShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShape.swift; sourceTree = "<group>"; };
+		C0ADE47E29EFE93E00DE489F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C0ADE49F29EFFF6000DE489F /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		EB0C756D2954743200C1F761 /* QDollarRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDollarRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0C75702954743200C1F761 /* QDollarRecognizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDollarRecognizerApp.swift; sourceTree = "<group>"; };
+		EB0C75722954743200C1F761 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB0C75742954743500C1F761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB0C75772954743500C1F761 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBC1AB792976F486000A6873 /* templates.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = templates.plist; sourceTree = "<group>"; };
+		EBE98C53295B537100DAA84A /* QDollarRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDollarRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB0C756A2954743200C1F761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0C75642954743100C1F761 = {
+			isa = PBXGroup;
+			children = (
+				EB0C756F2954743200C1F761 /* QDollarRecognizer */,
+				EB0C756E2954743200C1F761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB0C756E2954743200C1F761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB0C756D2954743200C1F761 /* QDollarRecognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0C756F2954743200C1F761 /* QDollarRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				C06E38B429F9297200B1F5DE /* Info.plist */,
+				EB0C75702954743200C1F761 /* QDollarRecognizerApp.swift */,
+				C0ADE49F29EFFF6000DE489F /* PersistenceController.swift */,
+				EBE98C53295B537100DAA84A /* QDollarRecognizer.swift */,
+				EB0C75722954743200C1F761 /* ContentView.swift */,
+				C0ADE47929E968BC00DE489F /* DrawShape.swift */,
+				C0ADE47329E80C8A00DE489F /* ListView.swift */,
+				C0ADE47529E812A400DE489F /* AddGestureView.swift */,
+				C0ADE46F29E7FFB200DE489F /* AnimationCompletionObserverModifier.swift */,
+				C0ADE47129E800FE00DE489F /* ViewExtension.swift */,
+				C0ADE47D29EFE93E00DE489F /* Model.xcdatamodeld */,
+				EBC1AB792976F486000A6873 /* templates.plist */,
+				EB0C75742954743500C1F761 /* Assets.xcassets */,
+				EB0C75762954743500C1F761 /* Preview Content */,
+			);
+			path = QDollarRecognizer;
+			sourceTree = "<group>";
+		};
+		EB0C75762954743500C1F761 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB0C75772954743500C1F761 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB0C756C2954743200C1F761 /* QDollarRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0C757B2954743500C1F761 /* Build configuration list for PBXNativeTarget "QDollarRecognizer" */;
+			buildPhases = (
+				EB0C75692954743200C1F761 /* Sources */,
+				EB0C756A2954743200C1F761 /* Frameworks */,
+				EB0C756B2954743200C1F761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QDollarRecognizer;
+			productName = QDollarRecognizer;
+			productReference = EB0C756D2954743200C1F761 /* QDollarRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB0C75652954743100C1F761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EB0C756C2954743200C1F761 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EB0C75682954743100C1F761 /* Build configuration list for PBXProject "QDollarRecognizer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB0C75642954743100C1F761;
+			productRefGroup = EB0C756E2954743200C1F761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB0C756C2954743200C1F761 /* QDollarRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB0C756B2954743200C1F761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0C75782954743500C1F761 /* Preview Assets.xcassets in Resources */,
+				EB0C75752954743500C1F761 /* Assets.xcassets in Resources */,
+				EBC1AB7A2976F486000A6873 /* templates.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB0C75692954743200C1F761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0C75732954743200C1F761 /* ContentView.swift in Sources */,
+				C0ADE47A29E968BC00DE489F /* DrawShape.swift in Sources */,
+				C0ADE47029E7FFB200DE489F /* AnimationCompletionObserverModifier.swift in Sources */,
+				C0ADE47429E80C8A00DE489F /* ListView.swift in Sources */,
+				C0ADE47629E812A400DE489F /* AddGestureView.swift in Sources */,
+				C0ADE47F29EFE93E00DE489F /* Model.xcdatamodeld in Sources */,
+				EBE98C54295B537100DAA84A /* QDollarRecognizer.swift in Sources */,
+				EB0C75712954743200C1F761 /* QDollarRecognizerApp.swift in Sources */,
+				C0ADE47229E800FE00DE489F /* ViewExtension.swift in Sources */,
+				C0ADE4A029EFFF6000DE489F /* PersistenceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB0C75792954743500C1F761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB0C757A2954743500C1F761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB0C757C2954743500C1F761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QDollarRecognizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 86SW6G2C83;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QDollarRecognizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QDollarRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB0C757D2954743500C1F761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QDollarRecognizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 86SW6G2C83;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QDollarRecognizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QDollarRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB0C75682954743100C1F761 /* Build configuration list for PBXProject "QDollarRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0C75792954743500C1F761 /* Debug */,
+				EB0C757A2954743500C1F761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0C757B2954743500C1F761 /* Build configuration list for PBXNativeTarget "QDollarRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0C757C2954743500C1F761 /* Debug */,
+				EB0C757D2954743500C1F761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0ADE47D29EFE93E00DE489F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0ADE47E29EFE93E00DE489F /* Model.xcdatamodel */,
+			);
+			currentVersion = C0ADE47E29EFE93E00DE489F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB0C75652954743100C1F761 /* Project object */;
+}

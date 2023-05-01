@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22D68" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LUT" representedClassName="LUT" syncable="YES" codeGenerationType="class">
+        <relationship name="gesture" maxCount="1" deletionRule="Cascade" destinationEntity="TemplateGesture" inverseName="lut" inverseEntity="TemplateGesture"/>
+        <relationship name="value" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="LUTValue" inverseName="lut" inverseEntity="LUTValue"/>
+    </entity>
+    <entity name="LUTValue" representedClassName="LUTValue" syncable="YES" codeGenerationType="class">
+        <attribute name="value" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="lut" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LUT" inverseName="value" inverseEntity="LUT"/>
+    </entity>
+    <entity name="Points" representedClassName="Points" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="intX" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="intY" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="x" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="y" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="gesture" maxCount="1" deletionRule="Cascade" destinationEntity="TemplateGesture" inverseName="points" inverseEntity="TemplateGesture"/>
+    </entity>
+    <entity name="TemplateGesture" representedClassName="TemplateGesture" syncable="YES" codeGenerationType="class">
+        <attribute name="emoji" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="lut" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="LUT" inverseName="gesture" inverseEntity="LUT"/>
+        <relationship name="points" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Points" inverseName="gesture" inverseEntity="Points"/>
+    </entity>
+</model>
